@@ -215,8 +215,8 @@ Code such as \fB_printf(\fIfoo\fB);\fR possibly indicates a bug, since
 \fIfoo\fR may contain a % character.
 
 .SH EXAMPLE
-To print the address of NAIROBI in the form "00400 Koinange St., 
-NAIROBI, NA 80900", followed by a new line, where \fIstreet\fR, \fIcity\fR, 
+To print the address of NAIROBI in the form "00200 Muindi St., 
+NAIROBI, NA 30200", followed by a new line, where \fIstreet\fR, \fIcity\fR, 
 and \fIstate\fR are pointers to strings:
 
 .RS
@@ -226,7 +226,7 @@ int main(void)
 
 {
 
-	char *street = "Koinange St.";
+	char *street = "Muindi St.";
 
 	char *city = "NAIROBI",
 
@@ -283,4 +283,4 @@ man page printf(3).
 .SH AUTHOR
 
 ----
-BERNARD KIPROP and MURITHI VITALIS MUTWIRI
+EMILY EMILY and EMILY EMILY EMILY
