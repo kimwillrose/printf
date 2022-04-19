@@ -232,7 +232,7 @@ int main(void)
 
 	char *state = "NA";
 
-	printf("%d %s, %s, %s, %d\\n", 00400, street, city, state, 80900);
+	printf("%d %s, %s, %s, %d\\n", 00200, street, city, state, 30200);
 
 }
 .RE
